@@ -1,3 +1,16 @@
-body {
-	background-color: lightgrey;
+.footer-element-center {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+footer ul {
+	list-style-type: none;
+	text-align: center;
+	margin: 0;
+}
+
+footer li {
+	display: inline-block;
+	padding: 0 10px;
 }
