@@ -1,2 +1,2 @@
-// Initial foundation javascript
+// Initialiaze foundation javascript
 $(document).foundation();

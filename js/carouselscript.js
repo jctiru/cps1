@@ -1,7 +1,6 @@
 $(document).ready(function () {
-//initialize swiper when document ready
+//Initialize swiper when document ready
 var galleryTop = new Swiper('.gallery-top', {
-  lazy: true,
   spaceBetween: 10,
   navigation: {
     nextEl: '.swiper-button-next',
@@ -15,7 +14,6 @@ var galleryTop = new Swiper('.gallery-top', {
   effect: 'fade', 
 });
 var galleryThumbs = new Swiper('.gallery-thumbs', {
-  lazy: true,
   spaceBetween: 10,
   centeredSlides: true,
   slidesPerView: 'auto',
@@ -24,4 +22,15 @@ var galleryThumbs = new Swiper('.gallery-thumbs', {
 });
 galleryTop.controller.control = galleryThumbs;
 galleryThumbs.controller.control = galleryTop;
+
+// Stop autoplay on mousehover
+$(".gallery-top").mouseenter(function() {
+  galleryTop.autoplay.stop();
+  console.log('slider stopped');
+});
+// Resume autoplay when not on mousehover
+$(".gallery-top").mouseleave(function() {
+  galleryTop.autoplay.start();
+  console.log('slider started again');
+});
 });
