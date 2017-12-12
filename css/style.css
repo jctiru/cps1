@@ -1,3 +1,25 @@
+body {
+	font-family: 'Arvo', Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
+}
+
+
+/*                       */
+/* Universal Navbar font */
+/*                       */
+.top-bar *,
+h1,h2,h3,h4,h5,h6,p{
+	font-family: 'Arvo', serif ;
+}
+/*                           */
+/* End Universal Navbar font */
+/*                           */
+
+
+
+/*                  */
+/* Universal Footer */
+/*                  */
+
 .footer-element-center {
 	position: relative;
 	top: 50%;
@@ -14,3 +36,27 @@ footer li {
 	display: inline-block;
 	padding: 0 10px;
 }
+/*                     */
+/* End Universal Footer*/
+/*                     */
+
+
+
+
+/*            */
+/* index.html */
+/*            */
+/* index.html main images */
+main .th > img {
+	height: 200px;
+}
+
+/* index.html section panel */
+section .panel {
+	margin-top: 1.25rem;
+}
+/*                */
+/* End index.html */
+/*                */
+
+
