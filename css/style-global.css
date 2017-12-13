@@ -11,11 +11,19 @@ body {
 	background-attachment: fixed;
 }
 
+.panel {
+	background-color: rgba(255, 255, 255, 0.75);
+}
 
-/*                  */
-/* Universal Footer */
-/*                  */
+header .panel {
+	margin-top: 1.25rem;
+}
 
+/*
+ *
+ * Footer
+ *
+ */
 footer {
 	background-color: rgba(255, 255, 255, 0.75);
 }
@@ -26,9 +34,6 @@ footer {
 }
 
 .footer-element-center {
-/*	position: relative;
-	top: 50%;
-	transform: translateY(-50%);*/
 	height: 100%;
 	display: flex;
 	justify-content: center;
@@ -47,71 +52,15 @@ footer li {
 	display: inline-block;
 	padding: 0 10px;
 }
+/* End Footer */
 
-
-/*                     */
-/* End Universal Footer*/
-/*                     */
-
-
-
-
-/*            */
-/* index.html */
-/*            */
-/* index.html main images */
-main .th > img {
-	height: 200px;
-	width: 300px;
-}
-
-main .panel {
-	max-width: 308px;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-#contact-text-wrapper {
-	height: 100%;
-	display: inline-flex !important;
-	justify-content: center !important;
-	flex-direction: column !important;
-}
-#contact-text-wrapper > p:last-child{
-	margin-bottom: 0;
-}
-
-#index-button {
-	margin: 0.75rem 0;
-	/*margin-top: 1rem;*/
-}
-
-
-/*                */
-/* End index.html */
-/*                */
-
-/* panel */
-.panel {
-	background-color: rgba(255, 255, 255, 0.75);
-}
-
-.accordion {
-	margin-bottom: 1.25rem;
-}
-
-/* Navbar */
-
-/* Media Queries */
+/* 
+ * 
+ * Media Queries 
+ *
+ */
 /*// Small screens*/
 @media only screen {
-main .th > img {
-	height: 200px;
-	width: 300px;
-}
-main .panel {
-	max-width: 308px;
-	} 
 footer i {
 	font-size: 28px;
 	}
@@ -125,13 +74,6 @@ footer i {
 
 /*// Medium screens*/
 @media only screen and (min-width: 40.063em) {
-main .th > img {
-	height: 300px;
-	width: 450px;
-}
-main .panel {
-	max-width: 458px;
-	} 
 footer i {
 	font-size: 36px;
 	}
@@ -145,14 +87,8 @@ footer i {
 
 /*// Large screens*/
 @media only screen and (min-width: 64.063em) {
-main .th > img {
-	height: 200px;
-	width: 300px;
-}
-main .panel {
-	max-width: 308px;
-	} 
 footer i {
 	font-size: 44px;
 	}
 } /* min-width 1025px, large screens */
+/* End Media Queries */
