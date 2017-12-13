@@ -12,13 +12,11 @@
 	<link rel="stylesheet" type="text/css" href="css/foundation-icons.css">
 	<!-- Global CSS -->
 	<link rel="stylesheet" type="text/css" href="css/style-global.css">
-	<!-- Custom CSS -->
-	<link rel="stylesheet" type="text/css" href="css/style-faq.css">
 	<!-- Favicon -->
 	<link rel="icon" href="img/favicon.ico" type="image/x-icon">
 	<!-- Google fonts -->
 	<link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
-	<title>FAQ</title>
+	<title>National Art Center</title>
 </head>
 <body>
 	<!-- Navbar -->
@@ -56,61 +54,75 @@
 					<li class="divider"></li>
 					<li><a href="about.html">About</a></li>
 					<li class="divider"></li>
-					<li><a href="#">FAQ</a></li>
+					<li><a href="faq.html">FAQ</a></li>
 					<li class="divider"></li>
 					<li><a href="contact.html">Contact</a></li>
 				</ul>
 			</section>
 		</nav>
 	</div>
-	<!-- End Navbar -->	
+	<!-- End Navbar -->
 
 	<!-- Header -->
 	<header class="row">
 		<div class="large-12 columns text-center">
 			<div class="panel">
-				<h1>Frequently Asked Questions</h1>
+				<h2>National Art Center</h2>
 			</div>
 		</div>
 		<hr>
 	</header>
+	<div class="row">
+		<div class="large-12 columns">
+			<div class="">
+				<img class="place-img th" src="img/japan-tokyo-national-art-center.jpg"/>
+			</div>	 		
+		</div>
+	</div>
 	<!-- End Header -->
 
 	<div class="row">
-		<dl class="accordion large-12 columns" data-accordion>
-			<dd class="accordion-navigation">
-				<a href="#panel1">1. Who are you?</a>
-				<div id="panel1" class="content">
-					<p>jctiru</p>   
+		<!-- Place Images -->
+		<div class="large-5 columns">
+			<div class="row">
+				<div class="large-12 large-centered medium-12 medium-centered small-12 small-centered columns">
+					<img class="place-img th" src="img/place-7-national-art-center-1.jpg">
+					<img class="place-img th" src="img/place-7-national-art-center-2.jpg">
+					<img class="place-img th" src="img/place-7-national-art-center-3.jpg">
+					<img class="place-img th" src="img/place-7-national-art-center-4.jpg">
+					<img class="place-img th" src="img/place-7-national-art-center-5.jpg">
+					<img class="place-img th" src="img/place-7-national-art-center-6.jpg">
 				</div>
-			</dd>		
-			<dd class="accordion-navigation">
-				<a href="#panel2">2. You already went sightseeing to Japan?</a>
-				<div id="panel2" class="content">
-					<p>No.</p>   
-				</div>
-			</dd>
-			<dd class="accordion-navigation">
-				<a href="#panel3">3. Why write this blogsite?</a>
-				<div id="panel3" class="content">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>   
-				</div>
-			</dd>
-			<dd class="accordion-navigation">
-				<a href="#panel4">4. Filler question</a>
-				<div id="panel4" class="content">
-					<p>Filler answer</p>   
-				</div>
-			</dd>
-		</dl>
-		<hr />
+			</div>
+
+		</div>
+		<!-- Place Text -->
+		<div class="large-7 columns panel">
+			<h2>National Art Center</h2>
+			<p>The huge, ultra-modern National Art Center, Tokyo, opened at the beginning of 2007 and is one of Tokyo's best museums. The National Art Center Tokyo is a short walk from Roppongi Hills. Designed by Kisho Kurokawa, the gleaming glass structure is Japan's largest exhibition space. Dedicated to special exhibitions, it has no permanent collection of its own.</p>
+			<p>The National Art Center is built on the old site of the University of Tokyo's Institute of Solid State Physics (now out at Kashiwa City), and is a major presence in establishing Roppongi as Tokyo's most cutting edge area.</p>
+			<hr class="place-hr">
+			<h3>Access</h3>
+			<p>Roppongi Station (Exit 7) on the Hibiya and Oedo Subway Lines
+			Nogizaka Station (Exit 6) on the Chiyoda Subway Line.</p>
+			<hr class="place-hr">
+			<h3>Links and Resources</h3>
+			<ul>
+				<li><a href="http://www.japan-guide.com/e/e3031.html" target="_blank">Japan-Guide</a></li>
+				<li><a href="http://www.nact.jp" target="_blank">National Art Center Tokyo</a></li>
+			</ul>
+		</div>
+		<hr>
 	</div>
 
+	<!-- Disqus -->
+	<div class="row">
+		<div class="large-12 columns disqus-panel">
+			<div class="" id="disqus_thread"></div>
+		</div>
+	</div>
+	<!-- End Disqus -->
+	
 	<footer>
 		<div class="row">
 			<div class="large-12 columns">
@@ -133,7 +145,6 @@
 		</div>
 	</footer>
 
-
 	<!-- JQuery -->
 	<script type="text/javascript" src="js/jquery-3.2.1.js"></script>
 	<script type="text/javascript" src="js/jquery-migrate-3.0.1.min.js"></script>
@@ -143,5 +154,22 @@
 	<script type="text/javascript" src="js/stickyFooter.js"></script>
 	<!-- My script -->
 	<script type="text/javascript" src="js/script.js"></script>
+	<!-- Disqus Script -->
+	<script>
+	/**
+	*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+	*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+	var disqus_config = function () {
+	this.page.url = 'http://example.com/place-7-national-art-center.html';  // Replace PAGE_URL with your page's canonical URL variable
+	// this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+	};
+	(function() { // DON'T EDIT BELOW THIS LINE
+		var d = document, s = d.createElement('script');
+		s.src = 'https://project-prototype-1.disqus.com/embed.js';
+		s.setAttribute('data-timestamp', +new Date());
+		(d.head || d.body).appendChild(s);
+	})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 </body>
 </html>
