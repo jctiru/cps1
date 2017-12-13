@@ -19,6 +19,33 @@ header .panel {
 	margin-top: 1.25rem;
 }
 
+.disqus-panel {
+	background-color: rgba(255, 255, 255, 0.95);
+	margin-bottom: 1.25rem;
+}
+
+/*
+ *
+ * Places
+ *
+ */
+.place-img {
+	width:100%;
+    height:100%;
+    object-fit: cover;
+    overflow: hidden;
+    margin-bottom: 1rem;
+}
+
+.place-img:first-of-type {
+	margin-bottom: 1.25rem;
+}
+
+.place-hr {
+	border-color: #333;
+}
+/* End Places */
+
 /*
  *
  * Footer

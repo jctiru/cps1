@@ -44,11 +44,11 @@ main .panel {
 /*// Medium screens*/
 @media only screen and (min-width: 40.063em) {
 main .th > img {
-	height: 300px;
-	width: 450px;
+	height: 400px;
+	width: 600px;
 }
 main .panel {
-	max-width: 458px;
+	max-width: 608px;
 	} 
 } /* min-width 641px, medium screens */
 
