@@ -1,12 +1,12 @@
-1. The Imperial Palace
-2. Ginza District: Shop 'til you drop
-3. Asakusa and the Senso-ji Temple
-4. National Museum of Nature and Science
-5. Ueno Park and Zoo
-6. Tokyo National Museum
-7. National Museum of Western Art
-8. The Meiji Shrine
-9. The Miraikan and Edo-Tokyo Museums
-10. The Tokyo Skytree
-11. The National Art Center
-12. The Kabuzi-ka Theatre
+1. Asakusa and the Seno-ji Temple
+2. Ginza District
+3. The Imperial Palace
+4. The Kabuzi-ka Theatre
+5. The Meiji Shrine
+6. Miraikan and Edo-Tokyo Museums
+7. The National Art Center
+8. Tokyo National Museum
+9. National Museum of Nature and Science
+10. National Museum of Western Art
+11. The Tokyo Skytree
+12. Ueno Park and Zoo
