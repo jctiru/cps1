@@ -1,0 +1,22 @@
+html {
+	font-size: 32px;
+}
+
+body {
+	background-image: url("../img/tokyo-bg-hd.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+#landing {
+	position: relative;
+	transform: translateY(-50%);
+	top: 50%;
+}
+
+.button {
+	margin-bottom: 0;
+	padding: 0.5rem 1rem 0.5rem 1rem;
+}
