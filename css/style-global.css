@@ -3,12 +3,29 @@ form, fieldset, legend, button, input, textarea, th, td ,iframe {
 	font-family: 'Arvo', Helvetica Neue, Helvetica, Roboto, Arial, sans-serif !important;
 }
 
-body {
+/*body {
 	background-image: url("../img/tokyo-bg-uhd.jpg");
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
+}*/
+
+body::before {
+  content: ' ';
+  display: block;
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -10;
+  background-image: url("../img/tokyo-bg-uhd.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .panel {
