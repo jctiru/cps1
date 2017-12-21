@@ -1,5 +1,5 @@
 html {
-	font-size: 32px;
+    font-size: 32px;
 }
 
 /*body {
@@ -11,16 +11,16 @@ html {
 }*/
 
 body::before {
-  background-image: url("../img/tokyo-bg-hd.jpg");
+    background-image: url("../img/tokyo-bg-hd.jpg");
 }
 
 #landing {
-	position: relative;
-	transform: translateY(-50%);
-	top: 50%;
+    position: relative;
+    transform: translateY(-50%);
+    top: 50%;
 }
 
 .button {
-	margin-bottom: 0;
-	padding: 0.5rem 1rem 0.5rem 1rem;
+    margin-bottom: 0;
+    padding: 0.5rem 1rem 0.5rem 1rem;
 }

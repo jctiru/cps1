@@ -1,6 +1,31 @@
-body, h1, h2, h3, h4, h5, h6, hr, p, a, blockquote, dl, dt, dd, ul, ol, li, pre,
-form, fieldset, legend, button, input, textarea, th, td ,iframe {
-	font-family: 'Arvo', Helvetica Neue, Helvetica, Roboto, Arial, sans-serif !important;
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+p,
+a,
+blockquote,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+pre,
+form,
+fieldset,
+legend,
+button,
+input,
+textarea,
+th,
+td,
+iframe {
+    font-family: 'Arvo', Helvetica Neue, Helvetica, Roboto, Arial, sans-serif !important;
 }
 
 /*body {
@@ -12,33 +37,33 @@ form, fieldset, legend, button, input, textarea, th, td ,iframe {
 }*/
 
 body::before {
-  content: ' ';
-  display: block;
-  position: fixed;
-  left: 0;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  width: 100vw;
-  height: 100vh;
-  z-index: -10;
-  background-image: url("../img/tokyo-bg-uhd.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+    content: ' ';
+    display: block;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -10;
+    background-image: url("../img/tokyo-bg-uhd.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .panel {
-	background-color: rgba(255, 255, 255, 0.75);
+    background-color: rgba(255, 255, 255, 0.75);
 }
 
 header .panel {
-	margin-top: 1.25rem;
+    margin-top: 1.25rem;
 }
 
 .disqus-panel {
-	background-color: rgba(255, 255, 255, 0.95);
-	margin-bottom: 1.25rem;
+    background-color: rgba(255, 255, 255, 0.95);
+    margin-bottom: 1.25rem;
 }
 
 /*
@@ -46,21 +71,23 @@ header .panel {
  * Places
  *
  */
+
 .place-img {
-	width:100%;
-    height:100%;
+    width: 100%;
+    height: 100%;
     object-fit: cover;
     overflow: hidden;
     margin-bottom: 1rem;
 }
 
 .place-img:first-of-type {
-	margin-bottom: 1.25rem;
+    margin-bottom: 1.25rem;
 }
 
 .place-hr {
-	border-color: #333;
+    border-color: #333;
 }
+
 /* End Places */
 
 /*
@@ -68,34 +95,36 @@ header .panel {
  * Footer
  *
  */
+
 footer {
-	background-color: rgba(255, 255, 255, 0.75);
+    background-color: rgba(255, 255, 255, 0.75);
 }
 
 .footer-container {
-	position: relative;
-	height: 100%;
+    position: relative;
+    height: 100%;
 }
 
 .footer-element-center {
-	height: 100%;
-	display: flex;
-	justify-content: center;
-	flex-direction: column;
-	padding: 0;
-	margin-bottom: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0;
+    margin-bottom: 0;
 }
 
 footer ul {
-	list-style-type: none;
-	text-align: center;
-	margin: 0;
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
 }
 
 footer li {
-	display: inline-block;
-	padding: 0 10px;
+    display: inline-block;
+    padding: 0 10px;
 }
+
 /* End Footer */
 
 /* 
@@ -103,36 +132,38 @@ footer li {
  * Media Queries 
  *
  */
+
 /*// Small screens*/
 @media only screen {
-footer i {
-	font-size: 28px;
-	}
-} /* Define mobile styles */
+    footer i {
+        font-size: 28px;
+    }
+}/* Define mobile styles */
 
-@media only screen and (max-width: 40em) { 
-footer i {
-	font-size: 32px;
-	}
-} /* max-width 640px, mobile-only styles, use when QAing mobile issues */
+@media only screen and (max-width: 40em) {
+    footer i {
+        font-size: 32px;
+    }
+}/* max-width 640px, mobile-only styles, use when QAing mobile issues */
 
 /*// Medium screens*/
 @media only screen and (min-width: 40.063em) {
-footer i {
-	font-size: 36px;
-	}
-} /* min-width 641px, medium screens */
+    footer i {
+        font-size: 36px;
+    }
+}/* min-width 641px, medium screens */
 
-@media only screen and (min-width: 40.063em) and (max-width: 64em) { 
-footer i {
-	font-size: 40px;
-	}
-} /* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+    footer i {
+        font-size: 40px;
+    }
+}/* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
 
 /*// Large screens*/
 @media only screen and (min-width: 64.063em) {
-footer i {
-	font-size: 44px;
-	}
-} /* min-width 1025px, large screens */
+    footer i {
+        font-size: 44px;
+    }
+}/* min-width 1025px, large screens */
+
 /* End Media Queries */
